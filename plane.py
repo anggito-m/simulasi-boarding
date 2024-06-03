@@ -156,7 +156,7 @@ class PlaneModel(Model):
         'Back-to-front': methods.back_to_front,
         'Back-to-front (4 groups)': methods.back_to_front_gr,
         'Window-Middle-Aisle': methods.win_mid_ais,
-        'Window-Middle-Aisle (4 groups)': methods.win_mid_ais_gr,
+        'Window-Middle-Aisle in Block (4 groups)': methods.win_mid_ais_gr,
         'Steffen Perfect': methods.steffen_perfect,
         'Steffen Modified': methods.steffen_modified
     }

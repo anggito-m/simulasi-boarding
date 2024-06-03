@@ -253,6 +253,48 @@ def win_mid_ais_gr(model):
 
     model.boarding_queue.extend(final_group)
 
+    ### GRUP edit 
+    # for x in range(10, 2, -1):
+    #     for y in (1, 2, 4, 5):
+    #         agent = plane.PassengerAgent(id, model, (x, y), 4)
+    #         id += 1
+    #         sub_group.append(agent)
+    # model.random.shuffle(sub_group)
+    # for a in sub_group:
+    #     final_group.append(a)
+    # sub_group = []
+    # #Grup 3
+    # for x in range(10, 2, -1):
+    #     for y in (0,6):
+    #         agent = plane.PassengerAgent(id, model, (x, y), 3)
+    #         id += 1
+    #         sub_group.append(agent)
+    # model.random.shuffle(sub_group)
+    # for a in sub_group:
+    #     final_group.append(a)
+    # sub_group = []
+    # #Grup 2   
+    # for x in range(18, 10, -1):
+    #     for y in (1, 2, 4, 5):
+    #         agent = plane.PassengerAgent(id, model, (x, y), 2)
+    #         id += 1
+    #         sub_group.append(agent)
+    # model.random.shuffle(sub_group)
+    # for a in sub_group:
+    #     final_group.append(a)
+    # sub_group = []
+    # #Grup 1
+    # for x in range(18, 10, -1):
+    #     for y in (0,6):
+    #         agent = plane.PassengerAgent(id, model, (x, y), 1)
+    #         id += 1
+    #         sub_group.append(agent)
+    # model.random.shuffle(sub_group)
+    # for a in sub_group:
+    #     final_group.append(a)
+
+    # model.boarding_queue.extend(final_group)
+
 def steffen_perfect(model):
 
     final_group = []
